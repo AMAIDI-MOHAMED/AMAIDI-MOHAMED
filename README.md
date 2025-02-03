@@ -1,13 +1,12 @@
 # Hi there, I'm Mohamed 👋
 
-
 ## About Me
 
-I am a dedicated computer science student at the Institut Supérieur des Langues Appliquées et d'Informatique de Béja (ISLAIB). My passion lies in the fields of coding, problem-solving, and technology. I am committed to continuously improving my skills and contributing to the tech community.
+I am a dedicated computer science student at the Institut Supérieur des Langues Appliquées et d'Informatique de Béja (ISLAIB). My passion lies in the fields of coding, problem-solving, and technology. I am constantly seeking opportunities to learn and grow in the tech industry.
 
 - 🌱 Currently expanding my knowledge in advanced web development and cloud computing.
 - 💬 Feel free to ask me about Python, JavaScript, and web development.
-- 📫 You can reach me at: [amaidim30@gmail.com](amaidim30@gmail.com)
+- 📫 You can reach me at: [amaidim30@gmail.com](mailto:amaidim30@gmail.com)
 - ⚡ Fun fact: Aside from coding, I enjoy playing chess and hiking.
 
 ## Skills and Technologies
@@ -30,5 +29,5 @@ A brief description of your project. Highlight key features, technologies used, 
 
 ## Connect with Me
 
-[![LinkedIn]([https://linkedin.com/in/mohamed-amaidi-032714328](https://www.linkedin.com/in/mohamed-amaidi-032714328/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-amaidi-032714328/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mohamed)
