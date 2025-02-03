@@ -30,5 +30,5 @@ A brief description of your project. Highlight key features, technologies used, 
 
 ## Connect with Me
 
-[![LinkedIn](www.linkedin.com/in/mohamed-amaidi-032714328)
+[![LinkedIn]([https://linkedin.com/in/mohamed-amaidi-032714328](https://www.linkedin.com/in/mohamed-amaidi-032714328/))
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mohamed)
