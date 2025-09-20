@@ -1,31 +1,40 @@
-# Hi, I’m Mohamed Amaidi
+<h1 align="center">Mohamed Amaidi</h1>
+<p align="center"><strong>Building secure, modern experiences — cyber‑first.</strong></p>
 
-I build secure, modern experiences — cyber-first, performance minded, and crafted with care.
+<p align="center">
+	<a href="mailto:mohamed.amaidi.dev@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-mohamed.amaidi.dev%40gmail.com-0b0f17?style=flat&labelColor=00e5ff&color=0b0f17"></a>
+	<a href="https://amaidi-mohamed.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-00e5ff?style=flat&labelColor=0b0f17&color=00e5ff"></a>
+</p>
 
-- Focus: cybersecurity, front-end architecture, automation
-- Open to: collaborations and remote work
-- Contact: [mohamed.amaidi.dev@gmail.com](mailto:mohamed.amaidi.dev@gmail.com)
+## About
 
-## GitHub Profile Homepage
+I craft reliable software with a focus on security, performance, and clean developer experience.
 
-Visit my live portfolio with animations, projects, and a modern theme:
+- Security‑conscious by default
+- Clean code, typed APIs, and tests
+- Accessibility and performance focused
 
-[![Open Portfolio](https://img.shields.io/badge/Portfolio-Live-00e5ff?style=for-the-badge&logo=vercel&logoColor=0b0f17)](https://amaidi-mohamed.github.io/)
+## Projects
 
-> To host this as your profile site, use a repository named `AMAIDI-MOHAMED.github.io` (yourusername.github.io). In that repo:
-> Settings → Pages → Build & deployment → Deploy from branch → Branch: main, Folder: /(root) → Save.
+- 🛡️ CyberSecure — Explorations and tooling around cyber defense and hardening  
+	https://github.com/benottom/CyberSecure
+- ⚙️ cyberSecurity — Notes, checklists, and practical security snippets  
+	https://github.com/AMAIDI-MOHAMED/cyberSecurity
+- 🚀 repo-exercise — Experiments and exercises exploring new techniques  
+	https://github.com/AMAIDI-MOHAMED/repo-exercise
 
-## Highlights
+## Skills
 
-- 🛡️ Security-driven by default
-- ⚙️ Clean, typed code and automation
-- ♿ Accessibility and performance focused
+Security • JavaScript/TypeScript • Front‑end Architecture • Automation/CI
 
-## Repositories
+## Contact
 
-- CyberSecure: [benottom/CyberSecure](https://github.com/benottom/CyberSecure)
-- cyberSecurity: [AMAIDI-MOHAMED/cyberSecurity](https://github.com/AMAIDI-MOHAMED/cyberSecurity)
-- repo-exercise: [AMAIDI-MOHAMED/repo-exercise](https://github.com/AMAIDI-MOHAMED/repo-exercise)
+- Email: <mailto:mohamed.amaidi.dev@gmail.com>
+- GitHub: https://github.com/AMAIDI-MOHAMED
+
+---
+
+Live portfolio (animations and UI): https://amaidi-mohamed.github.io/
 
 ## Run locally
 
