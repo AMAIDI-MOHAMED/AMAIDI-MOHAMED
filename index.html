@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0f17" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Mohamed Amaidi — Portfolio</title>
+  <meta name="description" content="The personal portfolio of Mohamed Amaidi. Cybersecurity, software projects, and contact info." />
+  <link rel="canonical" href="https://amaidi-mohamed.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohamed Amaidi — Portfolio" />
+  <meta property="og:description" content="Cybersecurity-focused portfolio with projects, visuals, and contact info." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://amaidi-mohamed.github.io/" />
+  <meta property="og:image" content="https://github.com/AMAIDI-MOHAMED.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96'%3E%3Ccircle cx='48' cy='48' r='44' fill='%2300E5FF'/%3E%3Ctext x='48' y='56' font-family='Verdana' font-size='42' text-anchor='middle' fill='%230B0F17'%3EMA%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="background">
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+  </div>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Go to top">
+        <img class="brand__avatar" src="https://github.com/AMAIDI-MOHAMED.png" alt="Portrait of Mohamed Amaidi" width="40" height="40" />
+        <span class="brand__name">Mohamed Amaidi</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-list">
+          <span class="nav__bar"></span><span class="nav__bar"></span><span class="nav__bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul id="nav-list" class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact" class="button button--primary">Contact</a></li>
+          <li>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+              <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="section hero" aria-label="Hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <h1 class="hero__title">
+            Building secure, modern experiences.
+            <span class="accent">Cyber-first.</span>
+          </h1>
+          <p class="hero__subtitle">
+            I’m Mohamed, a developer with a passion for cybersecurity and clean, high-performance code.
+          </p>
+          <div class="hero__ctas">
+            <a href="#projects" class="button button--primary">View Projects</a>
+            <a href="#contact" class="button button--ghost">Get in Touch</a>
+          </div>
+          <div class="hero__meta">
+            <span class="pill">Open to Collaborations</span>
+            <span class="pill">Remote-friendly</span>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="card tilt">
+            <div class="card__content">
+              <div class="terminal">
+                <div class="terminal__dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <pre class="terminal__body" aria-label="Animated code sample"><code>
+// hello.ts
+export const hello = (name: string) =>
+  `Hello, ${name}. Stay safe.`;
+
+console.log(hello("World"));
+                </code></pre>
+              </div>
+            </div>
+          </div>
+          <div class="rings" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <svg class="hero__wave" aria-hidden="true" viewBox="0 0 1440 200" preserveAspectRatio="none">
+        <path d="M0,64L60,85.3C120,107,240,149,360,170.7C480,192,600,192,720,165.3C840,139,960,85,1080,69.3C1200,53,1320,75,1380,85.3L1440,96L1440,200L1380,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path>
+      </svg>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--pad reveal">
+      <div class="container grid two">
+        <div>
+          <h2>About me</h2>
+          <p>
+            I craft secure, reliable software with a focus on performance, clarity, and great developer experience. My interests span
+            cybersecurity, front-end architecture, and thoughtful automation.
+          </p>
+          <ul class="list list--check">
+            <li>Security-conscious by default</li>
+            <li>Clean code, typed APIs, and tests</li>
+            <li>Accessibility and performance focused</li>
+          </ul>
+        </div>
+        <div>
+          <div class="glass card--profile">
+            <img src="https://github.com/AMAIDI-MOHAMED.png" alt="Mohamed Amaidi profile" class="profile-photo" />
+            <div class="profile-lines" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--alt section--pad">
+      <div class="container">
+        <h2 class="reveal">Selected projects</h2>
+        <div class="grid three">
+          <article class="project-card tilt reveal">
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <span class="icon">🛡️</span>
+                <h3>CyberSecure</h3>
+              </div>
+              <p>Explorations and tooling around cyber defense and security hardening.</p>
+              <div class="project-card__meta">
+                <span class="pill">Security</span>
+                <span class="pill">Automation</span>
+              </div>
+              <div class="project-card__actions">
+                <a class="button button--tiny" href="https://github.com/benottom/CyberSecure" target="_blank" rel="noopener">Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card tilt reveal">
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <span class="icon">⚙️</span>
+                <h3>cyberSecurity</h3>
+              </div>
+              <p>Notes, checklists, and code snippets focused on practical security.</p>
+              <div class="project-card__meta">
+                <span class="pill">Guides</span>
+                <span class="pill">Best Practices</span>
+              </div>
+              <div class="project-card__actions">
+                <a class="button button--tiny" href="https://github.com/AMAIDI-MOHAMED/cyberSecurity" target="_blank" rel="noopener">Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card tilt reveal">
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <span class="icon">🚀</span>
+                <h3>repo-exercise</h3>
+              </div>
+              <p>Experiments and exercises exploring new techniques and workflows.</p>
+              <div class="project-card__meta">
+                <span class="pill">Playground</span>
+                <span class="pill">Learning</span>
+              </div>
+              <div class="project-card__actions">
+                <a class="button button--tiny" href="https://github.com/AMAIDI-MOHAMED/repo-exercise" target="_blank" rel="noopener">Repo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section--pad">
+      <div class="container">
+        <h2 class="reveal">Gallery</h2>
+        <p class="section-lead reveal">Curated visuals that inspire my craft — tech, cities, and the flow of data.</p>
+        <div class="masonry">
+          <!-- Royalty-free Unsplash images (attribution recommended) -->
+          <a class="masonry__item reveal" href="https://unsplash.com/photos/xekxE_VR0Ec" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop" alt="Circuit board with neon lights" />
+          </a>
+          <a class="masonry__item reveal" href="https://unsplash.com/photos/RLw-UC03Gwc" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1200&auto=format&fit=crop" alt="City at night with neon" />
+          </a>
+          <a class="masonry__item reveal" href="https://unsplash.com/photos/Q1p7bh3SHj8" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop" alt="Data visualization abstract" />
+          </a>
+          <a class="masonry__item reveal" href="https://unsplash.com/photos/hGV2TfOh0ns" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop" alt="Laptop coding setup" />
+          </a>
+          <a class="masonry__item reveal" href="https://unsplash.com/photos/K-Iog-Bqf8E" target="_blank" rel="noopener">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1544198365-3ca89f5a60cd?q=80&w=1200&auto=format&fit=crop" alt="Abstract cyber tunnel" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section--alt section--pad">
+      <div class="container">
+        <h2 class="reveal">Skills</h2>
+        <div class="skills-list">
+          <div class="skill reveal">
+            <div class="skill__label">Security</div>
+            <div class="skill__bar" data-level="90"><span></span></div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__label">JavaScript/TypeScript</div>
+            <div class="skill__bar" data-level="85"><span></span></div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__label">Front-end Architecture</div>
+            <div class="skill__bar" data-level="80"><span></span></div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__label">Automation / CI</div>
+            <div class="skill__bar" data-level="75"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--pad">
+      <div class="container grid two">
+        <div class="reveal">
+          <h2>Contact</h2>
+          <p>Want to collaborate, ask a question, or just say hey? Reach me anytime.</p>
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link" href="mailto:mohamed.amaidi.dev@gmail.com">
+                <span class="icon">✉️</span>
+                <span>mohamed.amaidi.dev@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a class="contact-link" href="https://github.com/AMAIDI-MOHAMED" target="_blank" rel="noopener">
+                <span class="icon">🐙</span>
+                <span>github.com/AMAIDI-MOHAMED</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form glass reveal" onsubmit="return false;" novalidate aria-label="Quick contact form (opens email)">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" autocomplete="name" />
+          </label>
+          <label class="field">
+            <span>Subject</span>
+            <input type="text" name="subject" placeholder="What’s up?" />
+          </label>
+          <label class="field">
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="Write your message..."></textarea>
+          </label>
+          <button class="button button--primary" type="submit" id="emailBtn">Send Email</button>
+          <p class="form-hint">This opens your email client with a pre-filled message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mohamed Amaidi. All rights reserved.</p>
+      <ul class="social">
+        <li><a href="mailto:mohamed.amaidi.dev@gmail.com" aria-label="Email">✉️</a></li>
+        <li><a href="https://github.com/AMAIDI-MOHAMED" target="_blank" rel="noopener" aria-label="GitHub">🐙</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohamed Amaidi",
+    "email": "mailto:mohamed.amaidi.dev@gmail.com",
+  "url": "https://amaidi-mohamed.github.io/",
+    "sameAs": [
+      "https://github.com/AMAIDI-MOHAMED",
+      "mailto:mohamed.amaidi.dev@gmail.com"
+    ],
+    "jobTitle": "Developer (Cybersecurity Focus)"
+  }
+  </script>
+  <noscript>
+    <style>
+      .reveal{opacity:1 !important; transform:none !important}
+    </style>
+  </noscript>
+  <script src="./assets/main.js" defer></script>
+</body>
+</html>
