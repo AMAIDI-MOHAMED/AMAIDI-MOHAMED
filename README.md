@@ -1,31 +1,45 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Mohamed%20Amaidi&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20SOC%20Analyst%20%7C%20CS%20Student%20%7C%20Tunisia%20🇹🇳&descAlignY=65&descAlign=50&descSize=20"/>
+  <img width="100%" alt="Cyberpunk Banner" src="assets/cyberpunk-banner.svg" />
 </div>
+
+<!-- TOC -->
+## Table of Contents
+- [About Me](#-about-me--à-propos-de-moi)
+- [Tech Stack & Skills](#-tech-stack--skills--compétences-techniques)
+- [GitHub Analytics & Live Stats](#-github-analytics--live-stats--statistiques-en-direct)
+- [Featured Projects](#-featured-projects--projets-en-vedette)
+- [Local Cyberpunk Assets](#-local-cyberpunk-assets)
+- [Contact](#-contact)
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=true&width=800&height=140&lines=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Frontend+Developer+%40+Upwork;%F0%9F%9B%A1%EF%B8%8F+Aspiring+SOC+Analyst;%F0%9F%8E%93+Computer+Science+Student;%F0%9F%87%B9%F0%9F%87%B3+Made+in+Tunisia+with+%E2%9D%A4%EF%B8%8F;%F0%9F%93%9A+Meta+Frontend+Certificate+Student)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=800&color=00FFD1&center=true&vCenter=true&multiline=true&width=800&height=140&lines=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Frontend+Developer+%40+Upwork;%F0%9F%9B%A1%EF%B8%8F+Aspiring+SOC+Analyst;%F0%9F%8E%93+Computer+Science+Student;%F0%9F%87%B9%F0%9F%87%B3+Made+in+Tunisia+with+%E2%9D%A4%EF%B8%8F;%F0%9F%93%9A+Meta+Frontend+Certificate+Student)](https://git.io/typing-svg)
 
 </div>
 
 <div align="center">
   
-[![Upwork](https://img.shields.io/badge/💼_Upwork-Frontend_Developer-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://upwork.com)
-[![Coursera](https://img.shields.io/badge/🎓_Coursera-Meta_Frontend-0056D2?style=for-the-badge&logo=coursera&logoColor=white)](https://coursera.org)
-[![SOC Analyst](https://img.shields.io/badge/🛡️_SOC_Analyst-In_Training-FF6B35?style=for-the-badge&logo=security&logoColor=white)](https://github.com/AMAIDI-MOHAMED)
-[![Tunisia](https://img.shields.io/badge/🇹🇳_Tunisia-Computer_Science_Student-E70013?style=for-the-badge&labelColor=FFFFFF)](https://en.wikipedia.org/wiki/Tunisia)
+[![Upwork](https://img.shields.io/badge/💼_Upwork-Frontend_Developer-00FFD1?style=for-the-badge&logo=upwork&logoColor=0D1117)](https://upwork.com)
+[![Coursera](https://img.shields.io/badge/🎓_Coursera-Meta_Frontend-00FFD1?style=for-the-badge&logo=coursera&logoColor=0D1117)](https://coursera.org)
+[![SOC Analyst](https://img.shields.io/badge/🛡️_SOC_Analyst-In_Training-00FFD1?style=for-the-badge&logo=security&logoColor=0D1117)](https://github.com/AMAIDI-MOHAMED)
+[![Tunisia](https://img.shields.io/badge/🇹🇳_Tunisia-Computer_Science_Student-00FFD1?style=for-the-badge&labelColor=0D1117)](https://en.wikipedia.org/wiki/Tunisia)
 
 </div>
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=AMAIDI-MOHAMED&color=00F5FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/AMAIDI-MOHAMED)
-[![GitHub followers](https://img.shields.io/github/followers/AMAIDI-MOHAMED?logo=GitHub&style=for-the-badge&color=00F5FF)](https://github.com/AMAIDI-MOHAMED)
-[![GitHub Stars](https://img.shields.io/github/stars/AMAIDI-MOHAMED?logo=github&style=for-the-badge&color=00F5FF)](https://github.com/AMAIDI-MOHAMED)
+[![Profile Views](https://komarev.com/ghpvc/?username=AMAIDI-MOHAMED&color=00FFD1&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/AMAIDI-MOHAMED)
+[![GitHub followers](https://img.shields.io/github/followers/AMAIDI-MOHAMED?logo=GitHub&style=for-the-badge&color=00FFD1)](https://github.com/AMAIDI-MOHAMED)
+[![GitHub Stars](https://img.shields.io/github/stars/AMAIDI-MOHAMED?logo=github&style=for-the-badge&color=00FFD1)](https://github.com/AMAIDI-MOHAMED)
 
 </div>
 
-<img align="right" alt="Coding GIF" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+<img align="right" alt="Cyberpunk Hero" width="400" src="assets/cyberpunk-hero.svg">
+
+<!-- neon divider -->
+<div align="center">
+  <img width="90%" alt="Neon Divider" src="assets/neon/neon-divider.svg" />
+</div>
 
 ---
 
@@ -170,7 +184,7 @@ Pentesting   █████░░░░░ 45%
 </div>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=AMAIDI-MOHAMED&custom_title=Mohamed%20Amaidi's%20Contribution%20Graph&bg_color=0D1117&color=c9d1d9&line=00F5FF&point=00F5FF&area_color=ADBAC7&title_color=00F5FF&area=true&hide_border=true" alt="Mohamed Amaidi github activity graph" />
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=AMAIDI-MOHAMED&custom_title=Mohamed%20Amaidi's%20Contribution%20Graph&bg_color=0D1117&color=c9d1d9&line=00FFD1&point=00FFD1&area_color=ADBAC7&title_color=00FFD1&area=true&hide_border=true" alt="Mohamed Amaidi github activity graph" />
 </div>
 
 ### 📈 Profile Summary
@@ -180,21 +194,41 @@ Pentesting   █████░░░░░ 45%
 
 </div>
 
+---
+
+## 🎴 Local Cyberpunk Assets
+
+Showcase of images pulled from the repo's `assets/` folder (linked relatively so they render on GitHub):
+
+<div align="center">
+  <img alt="cyberpunk city" width="48%" src="assets/cyberpunk-city.svg" />
+  <img alt="coding terminal" width="48%" src="assets/coding-terminal.svg" />
+</div>
+
+<div align="center">
+  <img alt="night cyberpunk gif" width="48%" src="assets/Night Cyberpunk GIF.gif" />
+  <img alt="loop pink" width="48%" src="assets/Loop Pink GIF by dualvoidanima.gif" />
+</div>
+
+<div align="center">
+  <img alt="neon divider" width="90%" src="assets/neon/neon-divider.svg" />
+</div>
+
 <details align="center">
 <summary><strong>📊 More GitHub Insights</strong></summary>
 <br>
 
-<div align="center">
-
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AMAIDI-MOHAMED&theme=tokyonight)
-
+  [![Upwork](https://img.shields.io/badge/💼_Upwork-Frontend_Developer-00FFD1?style=for-the-badge&logo=upwork&logoColor=0D1117)](https://upwork.com)
+  [![Coursera](https://img.shields.io/badge/🎓_Coursera-Meta_Frontend-00FFD1?style=for-the-badge&logo=coursera&logoColor=0D1117)](https://coursera.org)
+  [![SOC Analyst](https://img.shields.io/badge/🛡️_SOC_Analyst-In_Training-00FFD1?style=for-the-badge&logo=security&logoColor=0D1117)](https://github.com/AMAIDI-MOHAMED)
+  [![Tunisia](https://img.shields.io/badge/🇹🇳_Tunisia-Computer_Science_Student-00FFD1?style=for-the-badge&labelColor=0D1117)](https://en.wikipedia.org/wiki/Tunisia)
 ![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AMAIDI-MOHAMED&theme=tokyonight)
 ![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AMAIDI-MOHAMED&theme=tokyonight)
 
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AMAIDI-MOHAMED&theme=tokyonight)
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AMAIDI-MOHAMED&theme=tokyonight&utcOffset=1)
-
-</div>
+  [![Profile Views](https://komarev.com/ghpvc/?username=AMAIDI-MOHAMED&color=00FFD1&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/AMAIDI-MOHAMED)
+  [![GitHub followers](https://img.shields.io/github/followers/AMAIDI-MOHAMED?logo=GitHub&style=for-the-badge&color=00FFD1)](https://github.com/AMAIDI-MOHAMED)
+  [![GitHub Stars](https://img.shields.io/github/stars/AMAIDI-MOHAMED?logo=github&style=for-the-badge&color=00FFD1)](https://github.com/AMAIDI-MOHAMED)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=800&color=00FFD1&center=true&vCenter=true&multiline=true&width=800&height=140&lines=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Frontend+Developer+%40+Upwork;%F0%9F%9B%A1%EF%B8%8F+Aspiring+SOC+Analyst;%F0%9F%8E%93+Computer+Science+Student;%F0%9F%87%B9%F0%9F%87%B3+Made+in+Tunisia+with+%E2%9D%A4%EF%B8%8F;%F0%9F%93%9A+Meta+Frontend+Certificate+Student)](https://git.io/typing-svg)
 
 </details>
 
@@ -232,6 +266,16 @@ Pentesting   █████░░░░░ 45%
 </div>
 
 ---
+
+## 📫 Contact
+
+If you'd like to reach out, connect via:
+
+[![Email](https://img.shields.io/badge/Email-mohamed.amaidi.dev@gmail.com-00FFD1?style=for-the-badge&logo=gmail&logoColor=0D1117)](mailto:mohamed.amaidi.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00FFD1?style=for-the-badge&logo=linkedin&logoColor=0D1117)](https://linkedin.com/in/mohamed-amaidi)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-00FFD1?style=for-the-badge&logo=twitter&logoColor=0D1117)](https://twitter.com/mohamed_amaidi)
+[![Discord](https://img.shields.io/badge/Discord-Chat-00FFD1?style=for-the-badge&logo=discord&logoColor=0D1117)](https://discord.gg/mohamed-amaidi)
+
 
 ## 💼 Professional Experience & Learning | Expérience Professionnelle
 
