@@ -1,7 +1,3 @@
-<!-- Cyberpunk banner -->
-<div align="center">
-  <img width="100%" alt="Cyberpunk Banner" src="assets/cyberpunk-banner.svg" />
-</div>
 
 <div align="center">
 
