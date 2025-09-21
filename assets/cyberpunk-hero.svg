@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="cyberpunkSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0033"/>
+      <stop offset="30%" stop-color="#330066"/>
+      <stop offset="70%" stop-color="#660099"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="100%" stop-color="#FF69B4"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#00CED1"/>
+    </linearGradient>
+    <filter id="heroGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes heroFlash {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      @keyframes dataFlow {
+        0% { transform: translateX(-100px); opacity: 0; }
+        50% { opacity: 1; }
+        100% { transform: translateX(1100px); opacity: 0; }
+      }
+      .hero-element { animation: heroFlash 3s infinite ease-in-out; }
+      .data-stream { animation: dataFlow 8s linear infinite; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="300" fill="url(#cyberpunkSky)"/>
+  
+  <!-- Atmospheric grid -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#FF00FF" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="300" fill="url(#grid)" opacity="0.4"/>
+  
+  <!-- Main title -->
+  <text x="500" y="80" text-anchor="middle" font-family="Orbitron, monospace" font-size="48" font-weight="bold" fill="url(#neonPink)" filter="url(#heroGlow)" class="hero-element">
+    CYBERPUNK DEV 2077
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="500" y="120" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="24" fill="url(#neonCyan)" filter="url(#heroGlow)">
+    NEURAL INTERFACE | FRONTEND ARCHITECT
+  </text>
+  
+  <!-- Data streams -->
+  <g class="data-stream">
+    <rect x="0" y="150" width="15" height="3" fill="#39FF14" opacity="0.8"/>
+    <rect x="20" y="150" width="25" height="3" fill="#FF00FF" opacity="0.6"/>
+    <rect x="50" y="150" width="35" height="3" fill="#00F5FF" opacity="0.9"/>
+  </g>
+  
+  <g class="data-stream" style="animation-delay: -2s;">
+    <rect x="0" y="170" width="20" height="2" fill="#FFD700" opacity="0.7"/>
+    <rect x="25" y="170" width="15" height="2" fill="#FF6B35" opacity="0.8"/>
+  </g>
+  
+  <!-- Bottom neon line -->
+  <rect x="0" y="290" width="1000" height="10" fill="url(#neonCyan)" filter="url(#heroGlow)" opacity="0.6"/>
+  
+  <!-- Corner accents -->
+  <path d="M0,0 L50,0 L50,5 L5,5 L5,50 L0,50 Z" fill="url(#neonPink)" filter="url(#heroGlow)" opacity="0.8"/>
+  <path d="M950,0 L1000,0 L1000,50 L995,50 L995,5 L950,5 Z" fill="url(#neonCyan)" filter="url(#heroGlow)" opacity="0.8"/>
+  <path d="M0,250 L0,300 L50,300 L50,295 L5,295 L5,250 Z" fill="url(#neonPink)" filter="url(#heroGlow)" opacity="0.8"/>
+  <path d="M950,295 L995,295 L995,250 L1000,250 L1000,300 L950,300 Z" fill="url(#neonCyan)" filter="url(#heroGlow)" opacity="0.8"/>
+  
+</svg>

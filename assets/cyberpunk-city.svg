@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0033"/>
+      <stop offset="50%" stop-color="#330066"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="100%" stop-color="#FF69B4"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#00CED1"/>
+    </linearGradient>
+    <filter id="cityGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes cityPulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes windowFlicker {
+        0%, 90%, 100% { fill: #39FF14; }
+        5%, 15% { fill: #FF00FF; }
+        20%, 30% { fill: #00F5FF; }
+      }
+      @keyframes neonFlash {
+        0%, 100% { opacity: 0.8; }
+        25% { opacity: 1; }
+        50% { opacity: 0.6; }
+        75% { opacity: 1; }
+      }
+      .building { animation: cityPulse 4s infinite ease-in-out; }
+      .window { animation: windowFlicker 3s infinite; }
+      .neon-sign { animation: neonFlash 2s infinite; }
+    </style>
+  </defs>
+  
+  <!-- Night sky background -->
+  <rect width="800" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Cyberpunk cityscape -->
+  <g class="building">
+    <!-- Building 1 -->
+    <rect x="50" y="180" width="80" height="220" fill="#1a1a2e" stroke="#FF00FF" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="60" y="190" width="8" height="8" class="window"/>
+    <rect x="75" y="190" width="8" height="8" class="window"/>
+    <rect x="90" y="190" width="8" height="8" class="window"/>
+    <rect x="105" y="190" width="8" height="8" class="window"/>
+    <rect x="60" y="210" width="8" height="8" class="window"/>
+    <rect x="75" y="210" width="8" height="8" class="window"/>
+    <rect x="90" y="210" width="8" height="8" class="window"/>
+    <rect x="105" y="210" width="8" height="8" class="window"/>
+    
+    <!-- Building 2 -->
+    <rect x="150" y="140" width="90" height="260" fill="#2d2d44" stroke="#00F5FF" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="165" y="160" width="10" height="10" class="window"/>
+    <rect x="180" y="160" width="10" height="10" class="window"/>
+    <rect x="195" y="160" width="10" height="10" class="window"/>
+    <rect x="210" y="160" width="10" height="10" class="window"/>
+    <rect x="165" y="185" width="10" height="10" class="window"/>
+    <rect x="180" y="185" width="10" height="10" class="window"/>
+    <rect x="195" y="185" width="10" height="10" class="window"/>
+    <rect x="210" y="185" width="10" height="10" class="window"/>
+    
+    <!-- Building 3 -->
+    <rect x="260" y="200" width="70" height="200" fill="#1a1a2e" stroke="#39FF14" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="275" y="220" width="8" height="8" class="window"/>
+    <rect x="290" y="220" width="8" height="8" class="window"/>
+    <rect x="305" y="220" width="8" height="8" class="window"/>
+    <rect x="275" y="240" width="8" height="8" class="window"/>
+    <rect x="290" y="240" width="8" height="8" class="window"/>
+    <rect x="305" y="240" width="8" height="8" class="window"/>
+    
+    <!-- Building 4 -->
+    <rect x="350" y="120" width="95" height="280" fill="#2d2d44" stroke="#FF6B35" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="370" y="140" width="12" height="12" class="window"/>
+    <rect x="390" y="140" width="12" height="12" class="window"/>
+    <rect x="410" y="140" width="12" height="12" class="window"/>
+    <rect x="370" y="170" width="12" height="12" class="window"/>
+    <rect x="390" y="170" width="12" height="12" class="window"/>
+    <rect x="410" y="170" width="12" height="12" class="window"/>
+    
+    <!-- Building 5 -->
+    <rect x="470" y="160" width="80" height="240" fill="#1a1a2e" stroke="#8A2BE2" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="485" y="180" width="8" height="8" class="window"/>
+    <rect x="500" y="180" width="8" height="8" class="window"/>
+    <rect x="515" y="180" width="8" height="8" class="window"/>
+    <rect x="530" y="180" width="8" height="8" class="window"/>
+    
+    <!-- Building 6 -->
+    <rect x="570" y="190" width="75" height="210" fill="#2d2d44" stroke="#FF1493" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="585" y="210" width="10" height="10" class="window"/>
+    <rect x="600" y="210" width="10" height="10" class="window"/>
+    <rect x="615" y="210" width="10" height="10" class="window"/>
+    
+    <!-- Building 7 -->
+    <rect x="665" y="170" width="85" height="230" fill="#1a1a2e" stroke="#00FFFF" stroke-width="2" filter="url(#cityGlow)"/>
+    <rect x="680" y="190" width="12" height="12" class="window"/>
+    <rect x="700" y="190" width="12" height="12" class="window"/>
+    <rect x="720" y="190" width="12" height="12" class="window"/>
+  </g>
+  
+  <!-- Neon signs -->
+  <g class="neon-sign">
+    <rect x="160" y="60" width="60" height="20" fill="url(#neonPink)" filter="url(#cityGlow)"/>
+    <text x="190" y="75" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#000">CYBER</text>
+    
+    <rect x="360" y="40" width="80" height="25" fill="url(#neonCyan)" filter="url(#cityGlow)"/>
+    <text x="400" y="58" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#000">MATRIX</text>
+    
+    <rect x="580" y="80" width="65" height="18" fill="url(#neonPink)" filter="url(#cityGlow)"/>
+    <text x="612" y="93" text-anchor="middle" font-family="monospace" font-size="10" font-weight="bold" fill="#000">2077</text>
+  </g>
+  
+  <!-- Ground level neon glow -->
+  <rect x="0" y="390" width="800" height="10" fill="url(#neonCyan)" filter="url(#cityGlow)" opacity="0.6"/>
+  
+  <!-- Atmospheric particles/stars -->
+  <circle cx="100" cy="50" r="1" fill="#39FF14" opacity="0.8"/>
+  <circle cx="200" cy="30" r="1" fill="#FF00FF" opacity="0.6"/>
+  <circle cx="350" cy="80" r="1" fill="#00F5FF" opacity="0.9"/>
+  <circle cx="500" cy="40" r="1" fill="#FFD700" opacity="0.7"/>
+  <circle cx="650" cy="60" r="1" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="720" cy="35" r="1" fill="#8A2BE2" opacity="0.6"/>
+</svg>

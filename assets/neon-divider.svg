@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100">
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="25%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#39FF14"/>
+      <stop offset="75%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <filter id="glitch">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="100" fill="#0D1117"/>
+  
+  <rect x="0" y="40" width="1200" height="6" fill="url(#neonGlow)" filter="url(#glitch)"/>
+  <rect x="0" y="48" width="1200" height="3" fill="#00F5FF" filter="url(#glitch)"/>
+  <rect x="0" y="54" width="1200" height="6" fill="url(#neonGlow)" filter="url(#glitch)"/>
+  
+  <polygon points="0,0 50,0 0,50" fill="#FF00FF" filter="url(#glitch)"/>
+  <polygon points="1200,0 1150,0 1200,50" fill="#00F5FF" filter="url(#glitch)"/>
+  <polygon points="0,100 50,100 0,50" fill="#39FF14" filter="url(#glitch)"/>
+  <polygon points="1200,100 1150,100 1200,50" fill="#FF6B35" filter="url(#glitch)"/>
+  
+  <rect x="100" y="10" width="2" height="80" fill="#FF00FF" opacity="0.8"/>
+  <rect x="300" y="15" width="1" height="70" fill="#00F5FF" opacity="0.6"/>
+  <rect x="500" y="12" width="3" height="76" fill="#39FF14" opacity="0.7"/>
+  <rect x="700" y="18" width="2" height="65" fill="#FF6B35" opacity="0.8"/>
+  <rect x="900" y="10" width="1" height="80" fill="#8A2BE2" opacity="0.6"/>
+  <rect x="1100" y="15" width="2" height="70" fill="#FF00FF" opacity="0.9"/>
+</svg>
