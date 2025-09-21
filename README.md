@@ -1,10 +1,16 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Mohamed%20Amaidi&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20SOC%20Analyst%20%7C%20CS%20Student%20%7C%20Tunisia%20🇹🇳&descAlignY=65&descAlign=50&descSize=20"/>
+  <!-- Local neon banner fallback (keeps external one below if desired) -->
+  <img width="100%" src="./docs/assets/neon/neon-banner.svg" alt="Neon banner" />
 </div>
 
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=true&width=800&height=140&lines=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Frontend+Developer+%40+Upwork;%F0%9F%9B%A1%EF%B8%8F+Aspiring+SOC+Analyst;%F0%9F%8E%93+Computer+Science+Student;%F0%9F%87%B9%F0%9F%87%B3+Made+in+Tunisia+with+%E2%9D%A4%EF%B8%8F;%F0%9F%93%9A+Meta+Frontend+Certificate+Student)](https://git.io/typing-svg)
+
+<!-- Neon cyberpunk greeting -->
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&duration=3000&pause=1000&color=FF00FF&center=true&vCenter=true&width=900&height=70&lines=Welcome+to+my+Neon+Hub;Frontend+Developer+%E2%9A%A1+SOC+Analyst+in+Training;Building+secure+%26+beautiful+web+experiences" alt="Neon greeting" />
+</a>
 
 </div>
 
@@ -22,7 +28,13 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=AMAIDI-MOHAMED&color=00F5FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/AMAIDI-MOHAMED)
 [![GitHub followers](https://img.shields.io/github/followers/AMAIDI-MOHAMED?logo=GitHub&style=for-the-badge&color=00F5FF)](https://github.com/AMAIDI-MOHAMED)
 [![GitHub Stars](https://img.shields.io/github/stars/AMAIDI-MOHAMED?logo=github&style=for-the-badge&color=00F5FF)](https://github.com/AMAIDI-MOHAMED)
+[![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=github.com%2FAMAIDI-MOHAMED%2FAMAIDI-MOHAMED&count_bg=%2300F5FF&title_bg=%230D1117&icon=&icon_color=%23E7E7E7&title=VISITORS&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Page Views](https://visitor-badge.laobi.icu/badge?page_id=AMAIDI-MOHAMED.AMAIDI-MOHAMED&left_color=0D1117&right_color=00F5FF)](https://visitor-badge.laobi.icu/)
 
+</div>
+
+<div align="center">
+  <img width="100%" src="./docs/assets/neon/neon-divider.svg" alt="neon divider"/>
 </div>
 
 <img align="right" alt="Coding GIF" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
@@ -92,19 +104,24 @@ Pentesting   █████░░░░░ 45%
 
 <br clear="both"/>
 
-### � Current Goals & Status
+### 🎯 Current Goals & Status
 - 🔭 **Working on:** React.js projects for international clients
 - 🌱 **Learning:** Meta Frontend Professional Certificate on Coursera
 - 👯 **Open to:** Frontend development collaborations & SOC analyst opportunities
-- �️ **Career Goal:** Transition to SOC Analyst role
+- 🧭 **Career Goal:** Transition to SOC Analyst role
 - 💼 **Upwork:** Building strong client relationships as Frontend Developer
-- � **Education:** Computer Science degree in progress
+- 🎓 **Education:** Computer Science degree in progress
 - ⚡ **Fun fact:** I can switch between frontend frameworks as easily as I switch between languages! 😄
 ---
 
 ## 🛠️ Tech Stack & Skills | Compétences Techniques
 
 <div align="center">
+
+<!-- Neon skill icons (animated-ready SVGs) -->
+<a href="#"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,tailwind,sass,bootstrap,materialui,vite,webpack,git,github,python,nodejs,express,mongodb,postgresql,linux,vscode&perline=10" alt="Neon skill icons" /></a>
+
+<img width="100%" src="./docs/assets/neon/neon-divider.svg" alt="neon divider"/>
 
 ### 🎨 Frontend Development
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
@@ -161,22 +178,27 @@ Pentesting   █████░░░░░ 45%
 ## 📊 GitHub Analytics & Live Stats | Statistiques en Direct
 
 <div align="center">
-  <img width="49%" height="200px" src="https://github-readme-stats.vercel.app/api?username=AMAIDI-MOHAMED&show_icons=true&count_private=true&hide_border=true&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true" alt="Mohamed Amaidi github stats" /> 
-  <img width="50%" height="200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AMAIDI-MOHAMED&layout=compact&hide_border=true&title_color=00F5FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" />
+  <img width="49%" height="200px" src="https://github-readme-stats.vercel.app/api?username=AMAIDI-MOHAMED&show_icons=true&count_private=true&hide_border=true&theme=synthwave&include_all_commits=true" alt="Mohamed Amaidi github stats" /> 
+  <img width="50%" height="200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AMAIDI-MOHAMED&layout=compact&hide_border=true&theme=synthwave&langs_count=8" />
 </div>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com?user=AMAIDI-MOHAMED&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F5FF&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=00F5FF&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="Mohamed Amaidi github streak" />
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com?user=AMAIDI-MOHAMED&theme=synthwave&hide_border=true" alt="Mohamed Amaidi github streak" />
 </div>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=AMAIDI-MOHAMED&custom_title=Mohamed%20Amaidi's%20Contribution%20Graph&bg_color=0D1117&color=c9d1d9&line=00F5FF&point=00F5FF&area_color=ADBAC7&title_color=00F5FF&area=true&hide_border=true" alt="Mohamed Amaidi github activity graph" />
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=AMAIDI-MOHAMED&custom_title=Mohamed%20Amaidi's%20Contribution%20Graph&theme=react-dark&area=true&hide_border=true" alt="Mohamed Amaidi github activity graph" />
+</div>
+
+<div align="center">
+  <!-- GitHub Metrics dashboard (neon style) -->
+  <img width="90%" src="https://metrics.lecoq.io/AMAIDI-MOHAMED?template=classic&base.header=0&isocalendar=1&languages=1&isocalendar.duration=half-year&languages.colors=00F5FF%2CFF00FF%2C39FF14&config.timezone=Africa%2FTunis&config.animated=true" alt="GitHub Metrics" />
 </div>
 
 ### 📈 Profile Summary
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=AMAIDI-MOHAMED&theme=tokyonight&no-frame=true&column=6&margin-w=15&margin-h=15&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=AMAIDI-MOHAMED&theme=dracula&no-frame=true&column=6&margin-w=15&margin-h=15&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -186,13 +208,13 @@ Pentesting   █████░░░░░ 45%
 
 <div align="center">
 
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AMAIDI-MOHAMED&theme=tokyonight)
+![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AMAIDI-MOHAMED&theme=2077)
 
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AMAIDI-MOHAMED&theme=tokyonight)
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AMAIDI-MOHAMED&theme=tokyonight)
+![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AMAIDI-MOHAMED&theme=2077)
+![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AMAIDI-MOHAMED&theme=2077)
 
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AMAIDI-MOHAMED&theme=tokyonight)
-![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AMAIDI-MOHAMED&theme=tokyonight&utcOffset=1)
+![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AMAIDI-MOHAMED&theme=2077)
+![Mohamed's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AMAIDI-MOHAMED&theme=2077&utcOffset=1)
 
 </div>
 
@@ -212,7 +234,7 @@ Pentesting   █████░░░░░ 45%
 <div align="center">
 
 ### 🔥 Project Highlights
-| 🛡️ Security | ⚡ Performance | � Web Dev | 🤖 Automation |
+| 🛡️ Security | ⚡ Performance | 🌐 Web Dev | 🤖 Automation |
 |:---:|:---:|:---:|:---:|
 | Penetration Testing | Code Optimization | Modern UI/UX | CI/CD Pipelines |
 | Vulnerability Assessment | System Performance | Responsive Design | Infrastructure as Code |
@@ -221,13 +243,23 @@ Pentesting   █████░░░░░ 45%
 
 </div>
 
+<!-- Animated project previews (hover not supported on GitHub Markdown, so these are always-on GIFs) -->
+<div align="center">
+  <a href="https://github.com/AMAIDI-MOHAMED/cyberSecurity" title="cyberSecurity">
+    <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="260" alt="cyberSecurity preview" />
+  </a>
+  <a href="https://github.com/AMAIDI-MOHAMED/AMAIDI-MOHAMED" title="Profile/Portfolio">
+    <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="260" alt="portfolio preview" />
+  </a>
+</div>
+
 ---
 
 ## 🌟 Random Dev Quote | Citation Développeur
 
 <div align="center">
   
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=synthwave)](https://github.com/piyushsuthar/github-readme-quotes)
 
 </div>
 
@@ -363,7 +395,7 @@ gantt
     section Development 💻
     AI/ML Security Integration     :2025-02-01, 2025-08-01
     Open Source Contributions     :2025-01-01, 2025-12-31
-    section Certifications �
+  section Certifications 🏅
     CISSP Preparation             :2025-04-01, 2025-10-01
     AWS Security Specialty        :2025-06-01, 2025-11-01
 ```
@@ -435,9 +467,17 @@ Documentation   ████████░░░░░░░░░░░░░�
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mohamed_amaidi)
 [![Discord](https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mohamed-amaidi)
 
+<!-- Neon social icons -->
+<div>
+  <a href="mailto:mohamed.amaidi.dev@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="36" alt="email"/></a>
+  <a href="https://linkedin.com/in/mohamed-amaidi"><img src="https://skillicons.dev/icons?i=linkedin" height="36" alt="linkedin"/></a>
+  <a href="https://twitter.com/mohamed_amaidi"><img src="https://skillicons.dev/icons?i=twitter" height="36" alt="twitter"/></a>
+  <a href="https://discord.gg/mohamed-amaidi"><img src="https://skillicons.dev/icons?i=discord" height="36" alt="discord"/></a>
+</div>
+
 ### 💬 Available For:
 - 🔐 **Security Consultations**
-- � **Open Source Collaborations** 
+- 🤝 **Open Source Collaborations** 
 - 🎓 **Mentoring & Teaching**
 - 💼 **Freelance Projects**
 - 🎤 **Tech Talks & Workshops**
@@ -464,7 +504,9 @@ Documentation   ████████░░░░░░░░░░░░░�
 </div>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn&fontColor=fff&text=Happy%20Coding%20from%20Tunisia!%20🇹🇳🚀&fontSize=28"/>
+  <img width="100%" src="./docs/assets/neon/neon-divider.svg" alt="neon divider"/>
+  <br/>
+  <sub><b>Happy Coding from Tunisia! 🇹🇳🚀</b></sub>
 </div>
 
 ---

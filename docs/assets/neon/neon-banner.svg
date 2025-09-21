@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="cyber" x1="0%" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="50%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
+    </linearGradient>
+    <filter id="f" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        92% { opacity: 0.85; }
+        94% { opacity: 0.6; }
+        96% { opacity: 1; }
+      }
+      .title { font: 700 36px 'Orbitron', monospace; fill: url(#cyber); filter:url(#f); animation: flicker 3s infinite; }
+      .sub { font: 500 18px 'JetBrains Mono', monospace; fill: #9AE6FF; opacity: .85; }
+    </style>
+  </defs>
+  <rect width="1200" height="120" fill="#0D1117" rx="8"/>
+  <text x="50%" y="52" text-anchor="middle" class="title">Welcome to my Neon Hub</text>
+  <text x="50%" y="86" text-anchor="middle" class="sub">Frontend Developer ⚡ SOC Analyst (in training)</text>
+  <rect x="50" y="100" width="1100" height="3" fill="url(#cyber)" filter="url(#f)"/>
+</svg>
