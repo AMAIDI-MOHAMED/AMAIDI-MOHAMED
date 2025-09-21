@@ -2,6 +2,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=800&color=00FFD1&center=true&vCenter=true&multiline=true&width=800&height=140&lines=Frontend+Developer+(Upwork);Computer+Science+Student;Aspiring+SOC+Analyst)](https://git.io/typing-svg)
 
+  <img alt="wake up burn" width="60%" src="assets/wake up burn GIF (2).gif" />
+  <p align="center">Welcome to my profile — Frontend Dev (Upwork) • CS Student • Aspiring SOC Analyst</p>
+
 
 ## Frontend Developer (Upwork) • Computer Science Student • Aspiring SOC Analyst
 
@@ -36,23 +39,7 @@
 
 ---
 
-## 🎴 Local Cyberpunk Assets
-
-Showcase of images pulled from the repo's `assets/` folder (linked relatively so they render on GitHub):
-
-<div align="center">
-  <img alt="cyberpunk city" width="48%" src="assets/cyberpunk-city.svg" />
-  <img alt="coding terminal" width="48%" src="assets/coding-terminal.svg" />
-</div>
-
-<div align="center">
-  <img alt="night cyberpunk gif" width="48%" src="assets/Night Cyberpunk GIF.gif" />
-  <img alt="loop pink" width="48%" src="assets/Loop Pink GIF by dualvoidanima.gif" />
-</div>
-
-<div align="center">
-  <img alt="neon divider" width="90%" src="assets/neon/neon-divider.svg" />
-</div>
+Welcome — neon city vibes.
 
 <details align="center">
 <summary><strong>📊 More GitHub Insights</strong></summary>
