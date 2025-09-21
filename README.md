@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=800&color=00FFD1&center=true&vCenter=true&multiline=true&width=800&height=140&lines=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Frontend+Developer+%40+Upwork;%F0%9F%9B%A1%EF%B8%8F+Aspiring+SOC+Analyst;%F0%9F%8E%93+Computer+Science+Student;%F0%9F%87%B9%F0%9F%87%B3+Made+in+Tunisia+with+%E2%9D%A4%EF%B8%8F;%F0%9F%93%9A+Meta+Frontend+Certificate+Student)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=800&color=00FFD1&center=true&vCenter=true&multiline=true&width=800&height=140&lines=Frontend+Developer+(Upwork);Computer+Science+Student;Aspiring+SOC+Analyst)](https://git.io/typing-svg)
 
 </div>
 
@@ -52,24 +52,23 @@
 <td width="60%">
 
 **🎯 Professional Summary**
-- 🚀 **Frontend Developer** on Upwork
-- 🎓 **Computer Science Student** in Tunisia 🇹🇳
-- 📜 **Meta Frontend Certificate** (In Progress)
-- 🛡️ **Career Goal:** SOC Analyst
-- 🗣️ **Languages:** Arabic, French, English
+- 🚀 Frontend Developer (Upwork) — building responsive, accessible interfaces for clients.
+- 🎓 Computer Science Student — practical coursework and projects.
+- 📜 Meta Frontend Certificate — in progress.
+- 🛡️ Aspiring SOC Analyst — focused on SIEM, incident response, and hands-on labs.
+- 🗣️ Languages: Arabic, French, English
 
 **💼 Technical Expertise**
-- ⚛️ **Frontend:** React.js, HTML5, CSS3, JavaScript, TypeScript
-- 🎨 **Styling:** Tailwind CSS, Bootstrap, SASS, Styled Components  
-- 🔧 **Tools:** Vite, Webpack, Git, VS Code
-- 🐍 **Backend:** Python, Node.js, MongoDB, PostgreSQL
-- 🛡️ **Security:** Learning SIEM Tools, Network Security, Incident Response
+- ⚛️ Frontend: React, HTML5, CSS3, JavaScript, TypeScript
+- 🎨 Styling: Tailwind CSS, Bootstrap, SASS
+- 🔧 Tools: Vite, Webpack, Git, VS Code
+- 🐍 Backend basics: Python, Node.js, MongoDB
+- 🛡️ Security learning: SIEM tools, network basics, incident handling
 
 **🚀 Current Focus**
-- Building responsive web applications
-- Completing Meta Frontend Certificate  
-- SOC Analyst roadmap progression
-- Expanding Upwork client portfolio
+- Building polished UI components and client projects on Upwork
+- Advancing through the Meta Frontend curriculum
+- Practicing SOC workflows and labs
 
 </td>
 <td width="40%">
