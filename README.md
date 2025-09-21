@@ -115,9 +115,5 @@ What I build:
   </a>
 </div>
 
----
-
-<!-- Neon footer wave -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FFD1&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=FFFFFF&animation=twinkling" alt="footer wave" width="100%" />
-</div>
+<!-- Matching neon footer (dark background & cyan text) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=00FFD1&animation=twinkling" alt="footer wave" width="100%" />
