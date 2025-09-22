@@ -54,7 +54,7 @@
     <filter id="noiseTexture" x="0%" y="0%" width="100%" height="100%">
       <feTurbulence baseFrequency="0.85" numOctaves="2" result="turbulence" type="fractalNoise"/>
       <feColorMatrix in="turbulence" type="saturate" values="0"/>
-      <feComposite in="colorMatrix" in2="SourceGraphic" operator="multiply"/>
+      <feComposite in="colorMatrix" in2="SourceGraphic" operator="screen"/>
     </filter>
 
     <!-- Grid pattern for cyberpunk aesthetic -->
