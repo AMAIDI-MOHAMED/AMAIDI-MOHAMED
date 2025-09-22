@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="darkCyberpunkBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0033" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#330066" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#0D1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Neon color gradients -->
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="50%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFD1"/>
+      <stop offset="50%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#40E0D0"/>
+    </linearGradient>
+
+    <linearGradient id="neonMagenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF1493"/>
+      <stop offset="50%" stop-color="#FF00FF"/>
+      <stop offset="100%" stop-color="#DA70D6"/>
+    </linearGradient>
+
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="50%" stop-color="#00FF41"/>
+      <stop offset="100%" stop-color="#32CD32"/>
+    </linearGradient>
+
+    <!-- Glowing effects -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Noise texture pattern -->
+    <filter id="noiseTexture" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence baseFrequency="0.85" numOctaves="2" result="turbulence" type="fractalNoise"/>
+      <feColorMatrix in="turbulence" type="saturate" values="0"/>
+      <feComposite in="colorMatrix" in2="SourceGraphic" operator="screen"/>
+    </filter>
+
+    <!-- Grid pattern for cyberpunk aesthetic -->
+    <pattern id="cyberpunkGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="url(#neonCyan)" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="100%" height="4" patternUnits="userSpaceOnUse">
+      <rect width="100%" height="2" fill="none"/>
+      <rect width="100%" height="1" y="2" fill="url(#neonCyan)" opacity="0.1"/>
+    </pattern>
+
+    <!-- Animations -->
+    <style>
+      <![CDATA[
+        @keyframes scanlineMove {
+          0% { transform: translateY(-400px); opacity: 0; }
+          10% { opacity: 0.3; }
+          90% { opacity: 0.3; }
+          100% { transform: translateY(400px); opacity: 0; }
+        }
+
+        @keyframes radialPulse {
+          0%, 100% { opacity: 0.4; transform: scale(1); }
+          50% { opacity: 0.8; transform: scale(1.1); }
+        }
+
+        @keyframes dataFlow {
+          0% { transform: translateX(-100px); opacity: 0; }
+          10% { opacity: 1; }
+          90% { opacity: 1; }
+          100% { transform: translateX(1300px); opacity: 0; }
+        }
+
+        @keyframes glitch {
+          0%, 90%, 100% { transform: translate(0); }
+          92% { transform: translate(2px, 1px); }
+          94% { transform: translate(-1px, -1px); }
+          96% { transform: translate(1px, 0); }
+          98% { transform: translate(-1px, 1px); }
+        }
+
+        .scanline-anim { 
+          animation: scanlineMove 8s linear infinite; 
+        }
+        
+        .scanline-anim:nth-child(2) { 
+          animation-delay: -2s; 
+        }
+        
+        .scanline-anim:nth-child(3) { 
+          animation-delay: -4s; 
+        }
+
+        .radial-light { 
+          animation: radialPulse 4s ease-in-out infinite; 
+        }
+
+        .radial-light:nth-child(2) { 
+          animation-delay: -1s; 
+        }
+
+        .radial-light:nth-child(3) { 
+          animation-delay: -2s; 
+        }
+
+        .data-stream { 
+          animation: dataFlow 12s linear infinite; 
+        }
+
+        .data-stream:nth-child(2) { 
+          animation-delay: -3s; 
+        }
+
+        .data-stream:nth-child(3) { 
+          animation-delay: -6s; 
+        }
+
+        .data-stream:nth-child(4) { 
+          animation-delay: -9s; 
+        }
+
+        .glitch-effect { 
+          animation: glitch 0.3s ease-in-out infinite; 
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="100%" height="100%" fill="url(#darkCyberpunkBg)"/>
+  
+  <!-- Noise texture overlay -->
+  <rect width="100%" height="100%" fill="#0D1117" opacity="0.3" filter="url(#noiseTexture)"/>
+  
+  <!-- Cyberpunk grid background -->
+  <rect width="100%" height="100%" fill="url(#cyberpunkGrid)" opacity="0.4"/>
+
+  <!-- Glowing radial lights -->
+  <g class="radial-lights">
+    <circle cx="200" cy="100" r="80" fill="url(#neonPurple)" opacity="0.3" filter="url(#strongGlow)" class="radial-light"/>
+    <circle cx="1000" cy="120" r="60" fill="url(#neonCyan)" opacity="0.4" filter="url(#strongGlow)" class="radial-light"/>
+    <circle cx="600" cy="300" r="100" fill="url(#neonMagenta)" opacity="0.2" filter="url(#strongGlow)" class="radial-light"/>
+    <circle cx="100" cy="350" r="40" fill="url(#neonGreen)" opacity="0.5" filter="url(#strongGlow)" class="radial-light"/>
+    <circle cx="1100" cy="350" r="70" fill="url(#neonPurple)" opacity="0.3" filter="url(#strongGlow)" class="radial-light"/>
+  </g>
+
+  <!-- Central transparent area for text readability -->
+  <ellipse cx="600" cy="200" rx="400" ry="120" fill="rgba(13, 17, 23, 0.7)" stroke="url(#neonCyan)" stroke-width="2" opacity="0.8" filter="url(#neonGlow)"/>
+  <ellipse cx="600" cy="200" rx="380" ry="100" fill="rgba(13, 17, 23, 0.5)"/>
+
+  <!-- Animated horizontal scanlines -->
+  <g class="scanlines">
+    <rect width="100%" height="2" fill="url(#neonCyan)" opacity="0.6" filter="url(#neonGlow)" class="scanline-anim"/>
+    <rect width="100%" height="1" fill="url(#neonMagenta)" opacity="0.4" filter="url(#neonGlow)" class="scanline-anim"/>
+    <rect width="100%" height="2" fill="url(#neonGreen)" opacity="0.3" filter="url(#neonGlow)" class="scanline-anim"/>
+  </g>
+
+  <!-- Data flow streams -->
+  <g class="data-streams">
+    <g class="data-stream">
+      <rect x="0" y="50" width="20" height="3" fill="url(#neonCyan)" opacity="0.8"/>
+      <rect x="25" y="50" width="35" height="3" fill="url(#neonPurple)" opacity="0.6"/>
+      <rect x="65" y="50" width="15" height="3" fill="url(#neonGreen)" opacity="0.9"/>
+    </g>
+    
+    <g class="data-stream">
+      <rect x="0" y="150" width="30" height="2" fill="url(#neonMagenta)" opacity="0.7"/>
+      <rect x="35" y="150" width="20" height="2" fill="url(#neonCyan)" opacity="0.8"/>
+      <rect x="60" y="150" width="25" height="2" fill="url(#neonGreen)" opacity="0.6"/>
+    </g>
+
+    <g class="data-stream">
+      <rect x="0" y="250" width="15" height="4" fill="url(#neonPurple)" opacity="0.9"/>
+      <rect x="20" y="250" width="40" height="4" fill="url(#neonCyan)" opacity="0.7"/>
+      <rect x="65" y="250" width="20" height="4" fill="url(#neonMagenta)" opacity="0.8"/>
+    </g>
+
+    <g class="data-stream">
+      <rect x="0" y="350" width="25" height="2" fill="url(#neonGreen)" opacity="0.8"/>
+      <rect x="30" y="350" width="30" height="2" fill="url(#neonPurple)" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Corner accent lights -->
+  <g class="corner-accents">
+    <!-- Top left -->
+    <path d="M0,0 L80,0 L80,4 L4,4 L4,80 L0,80 Z" fill="url(#neonCyan)" filter="url(#neonGlow)" opacity="0.8"/>
+    
+    <!-- Top right -->
+    <path d="M1120,0 L1200,0 L1200,80 L1196,80 L1196,4 L1120,4 Z" fill="url(#neonMagenta)" filter="url(#neonGlow)" opacity="0.8"/>
+    
+    <!-- Bottom left -->
+    <path d="M0,320 L0,400 L80,400 L80,396 L4,396 L4,320 Z" fill="url(#neonPurple)" filter="url(#neonGlow)" opacity="0.8"/>
+    
+    <!-- Bottom right -->
+    <path d="M1120,396 L1196,396 L1196,320 L1200,320 L1200,400 L1120,400 Z" fill="url(#neonGreen)" filter="url(#neonGlow)" opacity="0.8"/>
+  </g>
+
+  <!-- Additional cyberpunk elements -->
+  <g class="tech-elements">
+    <!-- Circuit-like patterns -->
+    <path d="M50,200 L150,200 L150,180 L200,180" stroke="url(#neonCyan)" stroke-width="2" fill="none" opacity="0.6" filter="url(#neonGlow)"/>
+    <circle cx="200" cy="180" r="4" fill="url(#neonCyan)" filter="url(#neonGlow)"/>
+    
+    <path d="M1150,220 L1050,220 L1050,240 L1000,240" stroke="url(#neonMagenta)" stroke-width="2" fill="none" opacity="0.6" filter="url(#neonGlow)"/>
+    <circle cx="1000" cy="240" r="4" fill="url(#neonMagenta)" filter="url(#neonGlow)"/>
+    
+    <!-- Glitch lines -->
+    <rect x="100" y="100" width="60" height="2" fill="url(#neonPurple)" opacity="0.7" class="glitch-effect"/>
+    <rect x="1040" y="300" width="80" height="1" fill="url(#neonGreen)" opacity="0.8" class="glitch-effect"/>
+  </g>
+
+  <!-- Subtle scanline overlay pattern -->
+  <rect width="100%" height="100%" fill="url(#scanlines)" opacity="0.3"/>
+</svg>
