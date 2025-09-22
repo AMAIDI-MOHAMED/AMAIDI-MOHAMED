@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Background gradients with cyberpunk colors -->
+    <radialGradient id="primaryBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0a2e" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#16213e" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#0f1419" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0A0A0F" stop-opacity="1"/>
+    </radialGradient>
+    
+    <!-- Neon color gradients -->
+    <radialGradient id="neonPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF00FF" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#FF00FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF00FF" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="neonCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#00FFFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00FFFF" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="neonYellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD500" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#FFD500" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFD500" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="neonPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A2BE2" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#8A2BE2" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="neonGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#39FF14" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Glow effects -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Subtle noise texture -->
+    <filter id="turbulence">
+      <feTurbulence baseFrequency="0.9" numOctaves="4" result="noise" seed="1"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="monoNoise"/>
+      <feBlend in="SourceGraphic" in2="monoNoise" mode="multiply" opacity="0.05"/>
+    </filter>
+    
+    <!-- Central transparent mask -->
+    <radialGradient id="centralMask" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#000000" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.8"/>
+    </radialGradient>
+    
+    <!-- Scanlines pattern -->
+    <pattern id="scanlines" x="0" y="0" width="100%" height="4" patternUnits="userSpaceOnUse">
+      <rect width="100%" height="2" fill="transparent"/>
+      <rect y="2" width="100%" height="1" fill="#00FFFF" opacity="0.1"/>
+      <rect y="3" width="100%" height="1" fill="transparent"/>
+    </pattern>
+    
+    <!-- Animation styles -->
+    <style>
+      @keyframes scanlineMove {
+        0% { transform: translateY(-400px); opacity: 0; }
+        10% { opacity: 0.8; }
+        90% { opacity: 0.8; }
+        100% { transform: translateY(400px); opacity: 0; }
+      }
+      
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
+      
+      @keyframes subtlePulse {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.5; }
+      }
+      
+      @keyframes dataStream {
+        0% { transform: translateX(-100px) scaleX(0); opacity: 0; }
+        20% { transform: translateX(0px) scaleX(1); opacity: 1; }
+        80% { transform: translateX(1200px) scaleX(0.8); opacity: 1; }
+        100% { transform: translateX(1300px) scaleX(0); opacity: 0; }
+      }
+      
+      .scanline-anim { animation: scanlineMove 8s linear infinite; }
+      .pulse-glow { animation: pulseGlow 4s ease-in-out infinite; }
+      .subtle-pulse { animation: subtlePulse 6s ease-in-out infinite; }
+      .data-flow { animation: dataStream 12s linear infinite; }
+    </style>
+  </defs>
+  
+  <!-- Main background with gradient -->
+  <rect width="1200" height="400" fill="url(#primaryBg)" filter="url(#turbulence)"/>
+  
+  <!-- Radial light sources positioned around the edges -->
+  <!-- Top corners -->
+  <circle cx="100" cy="80" r="120" fill="url(#neonPink)" opacity="0.4" filter="url(#softGlow)" class="pulse-glow"/>
+  <circle cx="1100" cy="80" r="100" fill="url(#neonCyan)" opacity="0.3" filter="url(#softGlow)" class="subtle-pulse"/>
+  
+  <!-- Side positions -->
+  <circle cx="50" cy="200" r="80" fill="url(#neonGreen)" opacity="0.35" filter="url(#softGlow)" class="pulse-glow" style="animation-delay: -2s;"/>
+  <circle cx="1150" cy="200" r="90" fill="url(#neonPurple)" opacity="0.3" filter="url(#softGlow)" class="subtle-pulse" style="animation-delay: -3s;"/>
+  
+  <!-- Bottom corners -->
+  <circle cx="150" cy="320" r="110" fill="url(#neonYellow)" opacity="0.25" filter="url(#softGlow)" class="pulse-glow" style="animation-delay: -1s;"/>
+  <circle cx="1050" cy="320" r="95" fill="url(#neonCyan)" opacity="0.35" filter="url(#softGlow)" class="subtle-pulse" style="animation-delay: -4s;"/>
+  
+  <!-- Additional atmospheric lights -->
+  <circle cx="300" cy="150" r="60" fill="url(#neonPink)" opacity="0.2" filter="url(#softGlow)" class="subtle-pulse" style="animation-delay: -5s;"/>
+  <circle cx="900" cy="250" r="70" fill="url(#neonGreen)" opacity="0.25" filter="url(#softGlow)" class="pulse-glow" style="animation-delay: -2.5s;"/>
+  
+  <!-- Subtle gradient overlays for depth -->
+  <rect width="1200" height="100" fill="url(#neonPink)" opacity="0.08" filter="url(#softGlow)"/>
+  <rect y="300" width="1200" height="100" fill="url(#neonCyan)" opacity="0.08" filter="url(#softGlow)"/>
+  
+  <!-- Data stream elements -->
+  <g class="data-flow">
+    <rect x="0" y="120" width="30" height="2" fill="#39FF14" opacity="0.8"/>
+    <rect x="35" y="120" width="20" height="2" fill="#FF00FF" opacity="0.6"/>
+    <rect x="60" y="120" width="40" height="2" fill="#00FFFF" opacity="0.9"/>
+  </g>
+  
+  <g class="data-flow" style="animation-delay: -4s;">
+    <rect x="0" y="280" width="25" height="1" fill="#FFD500" opacity="0.7"/>
+    <rect x="30" y="280" width="35" height="1" fill="#8A2BE2" opacity="0.8"/>
+  </g>
+  
+  <g class="data-flow" style="animation-delay: -8s;">
+    <rect x="0" y="200" width="45" height="1.5" fill="#00FFFF" opacity="0.6"/>
+    <rect x="50" y="200" width="15" height="1.5" fill="#39FF14" opacity="0.9"/>
+  </g>
+  
+  <!-- Animated scanlines overlay -->
+  <rect width="1200" height="400" fill="url(#scanlines)" class="scanline-anim"/>
+  <rect width="1200" height="400" fill="url(#scanlines)" class="scanline-anim" style="animation-delay: -4s;"/>
+  
+  <!-- Additional moving scanlines for cyberpunk effect -->
+  <g class="scanline-anim" style="animation-delay: -1s;">
+    <rect x="0" y="0" width="1200" height="1" fill="#FF00FF" opacity="0.15"/>
+  </g>
+  <g class="scanline-anim" style="animation-delay: -3s;">
+    <rect x="0" y="0" width="1200" height="1" fill="#00FFFF" opacity="0.2"/>
+  </g>
+  <g class="scanline-anim" style="animation-delay: -6s;">
+    <rect x="0" y="0" width="1200" height="1" fill="#FFD500" opacity="0.1"/>
+  </g>
+  
+  <!-- Central transparent area mask for text readability -->
+  <rect x="200" y="100" width="800" height="200" fill="url(#centralMask)" opacity="0.7"/>
+  
+  <!-- Subtle border glow -->
+  <rect x="0" y="0" width="1200" height="400" fill="none" stroke="url(#neonCyan)" stroke-width="2" opacity="0.3" filter="url(#softGlow)"/>
+  
+</svg>
