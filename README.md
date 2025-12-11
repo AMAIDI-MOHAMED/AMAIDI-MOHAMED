@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-ghibli. png" alt="Mohamed Amaidi" width="180" style="border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"/>
+<img src="./assets/profile-ghibli.png" alt="Mohamed Amaidi" width="180" style="border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"/>
 
 # 👋 Hi, I'm Mohamed Amaidi
 
