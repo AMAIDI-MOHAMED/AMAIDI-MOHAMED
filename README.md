@@ -216,7 +216,7 @@ Currently completing the **Meta Frontend Developer Professional Certificate** wh
 
 <div align="center">
 
-### 🟢 **Freelance Frontend Developer** | Upwork | 2024 - Present
+### 🟢 **Freelance Frontend Developer** | Upwork | 2025 - Present
 
 </div>
 
