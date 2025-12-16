@@ -138,7 +138,7 @@ Currently completing the **Meta Frontend Developer Professional Certificate** wh
 <a href="https://github.com/AMAIDI-MOHAMED/coffee_ui" target="_blank">
 <img src="https://img.shields.io/badge/Code-View_Repo-black?style=for-the-badge&logo=github" alt="Code"/>
 </a>
-<a href="{{COFFEE_LIVE}}" target="_blank">
+<a href="https://euphonious-gingersnap-b5e4b0.netlify.app/" target="_blank">
 <img src="https://img.shields.io/badge/Live-Visit_Site-green?style=for-the-badge&logo=vercel" alt="Live"/>
 </a>
 </div>
