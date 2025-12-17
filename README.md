@@ -17,11 +17,6 @@
 [![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01f12952ef7492919c)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/amaidimohamed/)
 
-<br/>
-
-[![Resume](https://img.shields.io/badge/📄_Download_My_Resume-FF0000?style=for-the-badge)]({{RESUME_URL}})
-
-<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AMAIDI-MOHAMED&label=Profile%20Views&color=0e75b6&style=flat)
 
