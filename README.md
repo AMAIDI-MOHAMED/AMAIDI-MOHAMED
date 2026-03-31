@@ -1,22 +1,21 @@
 <div align="center">
 
-<img src="./assets/profile-ghibli.png" alt="Mohamed Amaidi" width="180" style="border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"/>
+<img src="./assets/profile-ghibli.png" alt="Mohamed Amaidi" width="180" style="border-radius: 50%; box-shadow: 0 4px 20px rgba(59,130,246,0.3);"/>
 
-# 👋 Hi, I'm Mohamed Amaidi
+# Mohamed Amaidi
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Frontend+Developer+%7C+React+Specialist;Aspiring+SOC+Analyst;Building+Fast+%26+Responsive+Web+Apps;Open+to+Freelance+%26+Full-Time+Roles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=560&lines=Aspiring+SOC+Analyst;Network+%26+Security+Enthusiast;Python+%7C+Wireshark+%7C+Wazuh+%7C+Linux;Competitive+Programmer+(C%2B%2B+%7C+Codeforces);Frontend+Background+%7C+React+%26+Tailwind" alt="Typing SVG" />
 
 <br/>
 
-📍 **Tunisia** • 💼 **Open to Opportunities**
+📍 **Tunisia** &nbsp;•&nbsp; 🛡️ **Targeting SOC Internships** &nbsp;•&nbsp; 💼 **Open to Frontend Freelance**
 
 <br/>
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amaidim30@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-amaidi-a51093336)
-[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01f12952ef7492919c)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/amaidimohamed/)
-
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01f12952ef7492919c)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AMAIDI-MOHAMED&label=Profile%20Views&color=0e75b6&style=flat)
 
@@ -24,52 +23,58 @@
 
 ---
 
-## 🚀 About Me
-
-```typescript
-const mohamed = {
-    role: "Frontend Developer",
-    location: "Tunisia 🇹🇳",
-    specialization: ["React", "Vite", "Tailwind CSS"],
-    currentFocus: "Building fast, responsive web applications",
-    learning: ["Cybersecurity", "SOC Analysis", "Python", "Splunk", "Wireshark"],
-    certifications: ["Meta Frontend Developer (In Progress)", "freeCodeCamp RWD"],
-    availability: "Open to freelance, internships, and full-time roles"
-};
+## 🛡️ About Me
+```python
+analyst = {
+    "role":         "Aspiring SOC Analyst",
+    "location":     "Tunisia 🇹🇳",
+    "focus":        ["Threat Detection", "Incident Response", "Network Security"],
+    "tools":        ["Wazuh", "Wireshark", "Linux", "Python"],
+    "training":     ["TryHackMe", "HackTheBox", "CCNA"],
+    "background":   "Frontend Developer (React · Tailwind CSS)",
+    "competitive":  "C++ on Codeforces — analytical problem solving",
+    "seeking":      ["SOC Internship", "Frontend Freelance"]
+}
 ```
 
-I'm a **Frontend Developer** specializing in building **fast, responsive web applications** with **React**, **Vite**, and **Tailwind CSS**. I transform design mockups into **pixel-perfect, production-ready interfaces**.
+I'm transitioning into **cybersecurity** with a focus on **SOC operations and threat detection**. I study network traffic analysis, host-based monitoring with **Wazuh**, and security tooling through hands-on labs on **TryHackMe** and **HackTheBox**.
 
-Currently completing the **Meta Frontend Developer Professional Certificate** while exploring **cybersecurity** fundamentals (Splunk, Wireshark, Python) as an aspiring **SOC Analyst**. 
+My background in **frontend development** gives me a practical edge — I understand web attack surfaces (XSS, CSRF, injection) from the inside. My **competitive programming** habit in C++ sharpens the logical thinking that SOC work demands.
 
-### ✨ What I Deliver
+---
 
-<table>
-<tr>
-<td>
-
-- ✅ **Clean, maintainable code** following best practices
-- ✅ **Pixel-perfect implementation** from Figma to production
-- ✅ **Responsive design** across all devices
-
-</td>
-<td>
-
-- ✅ **Clear communication** and on-time delivery
-- ✅ **5-star rated service** on Upwork
-- ✅ **100% success rate** (2 jobs completed)
-
-</td>
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🛠️ Tech Stack
+## 🔐 Cybersecurity Skills
 
 <div align="center">
 
-### **Frontend Development**
+### **Security & Monitoring**
+
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-3C7EB3?style=for-the-badge&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+
+### **Networking**
+
+![CCNA](https://img.shields.io/badge/CCNA-In_Progress-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-Protocols-555555?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Packet_Analysis-Wireshark-1679A7?style=for-the-badge)
+
+### **Labs & Practice**
+
+![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
+![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
+![Codeforces](https://img.shields.io/badge/Codeforces-C%2B%2B_Problem_Solving-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
+
+</div>
+
+---
+
+## 🛠️ Frontend Background
+
+> *I maintain frontend skills for freelance work and because understanding the web stack makes me a better security analyst.*
+
+<div align="center">
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -78,26 +83,11 @@ Currently completing the **Meta Frontend Developer Professional Certificate** wh
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### **Tools & Platforms**
-
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### **Currently Learning**
-
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=Splunk&logoColor=white)
-
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-## 💼 Featured Projects
+## 🔬 Security Projects & Labs
 
 <div align="center">
 
@@ -105,43 +95,37 @@ Currently completing the **Meta Frontend Developer Professional Certificate** wh
 <tr>
 <td width="50%">
 
-<h3 align="center">🌐 Personal Portfolio</h3>
+<h3 align="center">🛡️ Cybersecurity Notes & Labs</h3>
 
 <div align="center">
-<a href="https://github.com/AMAIDI-MOHAMED/AMAIDI-MOHAMED. github.io" target="_blank">
-<img src="https://img.shields.io/badge/Code-View_Repo-black?style=for-the-badge&logo=github" alt="Code"/>
-</a>
-<a href="https://amaidi.netlify.app" target="_blank">
-<img src="https://img.shields.io/badge/Live-Visit_Site-green?style=for-the-badge&logo=vercel" alt="Live"/>
+<a href="https://github.com/AMAIDI-MOHAMED/cyberSecurity" target="_blank">
+<img src="https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github" alt="Repo"/>
 </a>
 </div>
 
 <br/>
 
-**Modern, fully responsive portfolio** showcasing my projects and skills.
+Documentation of security concepts, tools, and hands-on lab walkthroughs.
 
-**Tech Stack:** React • Vite • Tailwind CSS
+**Focus:** Network security · Linux · Monitoring tools
 
 </td>
 
 <td width="50%">
 
-<h3 align="center">☕ Coffee Shop UI</h3>
+<h3 align="center">🌐 CCNA Networking Course</h3>
 
 <div align="center">
-<a href="https://github.com/AMAIDI-MOHAMED/coffee_ui" target="_blank">
-<img src="https://img.shields.io/badge/Code-View_Repo-black?style=for-the-badge&logo=github" alt="Code"/>
-</a>
-<a href="https://euphonious-gingersnap-b5e4b0.netlify.app/" target="_blank">
-<img src="https://img.shields.io/badge/Live-Visit_Site-green?style=for-the-badge&logo=vercel" alt="Live"/>
+<a href="https://github.com/AMAIDI-MOHAMED/CCNA-Course" target="_blank">
+<img src="https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github" alt="Repo"/>
 </a>
 </div>
 
 <br/>
 
-**Elegant e-commerce interface** with reusable React components. 
+Structured notes from CCNA studies — subnetting, routing, switching, protocols.
 
-**Tech Stack:** React • Tailwind CSS
+**Focus:** TCP/IP · VLANs · Routing protocols
 
 </td>
 </tr>
@@ -149,38 +133,37 @@ Currently completing the **Meta Frontend Developer Professional Certificate** wh
 <tr>
 <td width="50%">
 
-<h3 align="center">🛍️ Product Landing Page</h3>
+<h3 align="center">⚔️ Problem Solving (C++)</h3>
 
 <div align="center">
-<a href="https://github.com/AMAIDI-MOHAMED/Product-Landing-Page" target="_blank">
-<img src="https://img.shields.io/badge/Code-View_Repo-black?style=for-the-badge&logo=github" alt="Code"/>
-</a>
-<a href="{{LANDING_LIVE}}" target="_blank">
-<img src="https://img.shields.io/badge/Live-Visit_Site-green?style=for-the-badge&logo=vercel" alt="Live"/>
+<a href="https://github.com/AMAIDI-MOHAMED/Problem_Solving" target="_blank">
+<img src="https://img.shields.io/badge/View_Repo-100000?style=for-the-badge&logo=github" alt="Repo"/>
 </a>
 </div>
 
 <br/>
 
-**High-converting landing page** with mobile-first design.
+Codeforces solutions — competitive programming builds the analytical muscle for SOC work.
 
-**Tech Stack:** HTML5 • CSS3 • JavaScript
+**Stack:** C++ · Algorithms · Data Structures
 
 </td>
 
 <td width="50%">
 
-<h3 align="center">🌤️ Weather Dashboard</h3>
+<h3 align="center">🌐 Personal Portfolio</h3>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Status-Coming_Soon-yellow?style=for-the-badge" alt="Coming Soon"/>
+<a href="https://amaidi.netlify.app" target="_blank">
+<img src="https://img.shields.io/badge/Visit_Site-00C7B7?style=for-the-badge&logo=netlify" alt="Live"/>
+</a>
 </div>
 
 <br/>
 
-**Real-time weather app** with API integration (In Development).
+Responsive portfolio built with React + Tailwind CSS.
 
-**Tech Stack:** React • REST API • CSS3
+**Stack:** React · Vite · Tailwind CSS
 
 </td>
 </tr>
@@ -188,95 +171,30 @@ Currently completing the **Meta Frontend Developer Professional Certificate** wh
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+---
 
 ## 🏆 Achievements
 
 <div align="center">
 
 | 🎯 **Category** | 🏅 **Achievement** |
-|: ----------------|:-------------------|
-| **💻 LeetCode** | 84+ problems solved |
-| **🦈 GitHub** | Pull Shark • Quickdraw |
-| **📜 Certifications** | freeCodeCamp Responsive Web Design (July 2025) |
-| **⭐ Freelance** | Upwork: 2 jobs • 100% success rate • 5-star rating |
-| **🎓 Meta Certification** | Frontend Developer Professional Certificate (In Progress) |
+|:----------------|:-------------------|
+| 🛡️ **Security Labs** | TryHackMe & HackTheBox — active learner |
+| 🌐 **Networking** | CCNA — in progress |
+| ⚔️ **Competitive Programming** | Codeforces (C++) + 84+ LeetCode problems solved |
+| 📜 **Certifications** | freeCodeCamp Responsive Web Design (July 2025) |
+| ⭐ **Freelance** | Upwork: 2 jobs · 100% success rate · 5-star rating |
+| 🦈 **GitHub** | Pull Shark · Quickdraw |
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
-
-## 💼 Experience
-
-<div align="center">
-
-### 🟢 **Freelance Frontend Developer** | Upwork | 2025 - Present
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-**🎯 Responsibilities:**
-- Delivered responsive web applications for international clients
-- Specialized in Figma-to-React conversion
-- Built reusable component libraries
-- Integrated REST APIs
-
-</td>
-<td width="50%">
-
-**📊 Results:**
-- ⭐ **100% job success score**
-- 🌟 **5-star rating** on all projects
-- 🚀 **On-time delivery** guaranteed
-- 💬 **Excellent communication**
-
-</td>
-</tr>
-</table>
-
-**Tech Stack:** React • Tailwind CSS • JavaScript • Git • REST APIs
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🔄 My Workflow
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[📋 Requirements] --> B[🎨 Design Review]
-    B --> C[💻 Development]
-    C --> D[🧪 Testing]
-    D --> E[🚀 Deployment]
-    E --> F[👥 Client Review]
-    
-    style A fill:#3b82f6,color:#fff
-    style C fill:#8b5cf6,color:#fff
-    style E fill:#10b981,color:#fff
-```
-
-</div>
-
-### 🤝 My Commitment
-
-<div align="center">
-
-| ✅ **Daily Updates** | ✅ **Clean Code** | ✅ **Thorough Testing** | ✅ **Post-Delivery Support** |
-|:-------------------:|:----------------:|:----------------------:|:---------------------------:|
-| Regular progress reports | Well-documented | Manual + Automated | 30 days included |
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api? username=AMAIDI-MOHAMED&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AMAIDI-MOHAMED&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AMAIDI-MOHAMED&theme=tokyonight&hide_border=true" />
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AMAIDI-MOHAMED&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
@@ -284,9 +202,9 @@ graph LR
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+---
 
-## 📬 Let's Work Together
+## 📬 Let's Connect
 
 <div align="center">
 
@@ -294,31 +212,18 @@ graph LR
 
 <table>
 <tr>
-<td align="center" width="33%">
-  <img src="https://img.icons8.com/color/96/000000/laptop. png" width="50"/><br/>
-  <strong>💼 Freelance Projects</strong><br/>
-  <sub>Landing pages • Web apps • SaaS</sub>
+<td align="center" width="50%">
+  <strong>🛡️ SOC Internships</strong><br/>
+  <sub>Threat detection · Monitoring · Incident response</sub>
 </td>
-<td align="center" width="33%">
-  <img src="https://img.icons8.com/color/96/000000/student-center.png" width="50"/><br/>
-  <strong>🎓 Internships</strong><br/>
-  <sub>Frontend roles • React teams</sub>
-</td>
-<td align="center" width="33%">
-  <img src="https://img.icons8.com/color/96/000000/business. png" width="50"/><br/>
-  <strong>🏢 Full-Time Roles</strong><br/>
-  <sub>Frontend/React Developer</sub>
+<td align="center" width="50%">
+  <strong>💼 Frontend Freelance</strong><br/>
+  <sub>React · Tailwind CSS · Landing pages · Web apps</sub>
 </td>
 </tr>
 </table>
 
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 💌 Get In Touch
-
-<div align="center">
+<br/>
 
 **📧 Email:** [amaidim30@gmail.com](mailto:amaidim30@gmail.com)
 
@@ -328,7 +233,7 @@ graph LR
 
 <br/>
 
-**💬 I typically respond within 24 hours! **
+**💬 I typically respond within 24 hours.**
 
 </div>
 
@@ -336,10 +241,8 @@ graph LR
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=100&section=footer" width="100%"/>
 
-**⭐ If you like my work, consider starring my repositories!**
-
-<sub>Built with ❤️ by Mohamed Amaidi • Last Updated: December 2025</sub>
+<sub>Built with ❤️ by Mohamed Amaidi • Updated March 2026</sub>
 
 </div>
